@@ -35,5 +35,5 @@ Using normalized Mutual Information as relations?
 
 ## Learning Multiple Stock Trading Patterns with Temporal Routing Adaptor and Optimal Transport
 + model multiple stock trading patterns
-1. the lack of explicit identifiers makes it quite challenging to train a router. So they design a learning algorithm based on Optimal Transport
+1. the lack of **explicit identifiers** makes it quite challenging to train a router. So they design a learning algorithm based on Optimal Transport
 
