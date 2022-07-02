@@ -12,3 +12,14 @@
 
 ## REST: Relational Event-driven Stock Trend Forecasting
 + two main shortcomings in existing event-driven methods: overlook 
+
+## Gated Sequential Recommendation System with Social and Textual Information Under Dynamic Contexts
++ extract users' preference, consider dynammic contexts
+1. a dual-GRU structure builds the **sequential dynamics**
+2. a gating layer combines two views of data explicitly
+3. a social attention module combines two views of data implicitly
+### interests:
+1. sequential dynamics
+2. multi-dimension attention
+3. how they build the graph and update it? note they use a pretrained social embedding from the work of SDNE
+   > Wang, D., Cui, P., Zhu, W.: Structural deep network embedding. In: ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, New York, NY, USA, pp. 1225–1234 (2016)
