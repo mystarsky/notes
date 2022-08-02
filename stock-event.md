@@ -45,8 +45,7 @@
    >
    > Qing Li, Yan Chen, Jun Wang, Yuanzhu Chen, and Hsinchun Chen. 2017. Web media and stock markets: A survey and future directions from a big data perspective. IEEE Transactions on Knowledge and Data Engineering 30, 2 (2017), 381–399.
 2. Event信息的应用
-   
-   news
+   ### news
    > Shumin Deng, Ningyu Zhang, Wen Zhang, Jiaoyan Chen, Jeff Z Pan, and Huajun Chen. 2019. Knowledge-Driven Stock Trend Prediction and Explanation via Temporal Convolutional Network. In Companion Proceedings of The 2019 World Wide Web Conference. ACM, 678–685.
    >
    > Xiao Ding, Yue Zhang, Ting Liu, and Junwen Duan. 2016. Knowledge-driven event embedding for stock prediction. In Proceedings of coling 2016, the 26th international conference on computational linguistics: Technical papers. 2133–2142.
@@ -58,9 +57,9 @@
    > Qikai Liu, Xiang Cheng, Sen Su, and Shuguang Zhu. 2018. Hierarchical complementary attention network for predicting stock price movements with news. In Proceedings of the 27th ACM International Conference on Information and Knowledge Management. 1603–1606.
    >
    > Arman Khadjeh Nassirtoussi, Saeed Aghabozorgi, Teh Ying Wah, and David Chek Ling Ngo. 2015. Text mining of news-headlines for FOREX market prediction: A Multi-layer Dimension Reduction Algorithm with semantics and sentiment. Expert Systems with Applications 42, 1 (2015), 306–324.
+   >
    > Manuel R Vargas, Beatriz SLP De Lima, and Alexandre G Evsukoff. 2017. Deep learning for stock market prediction from financial news articles. In 2017 IEEE International Conference on Computational Intelligence and Virtual Environments for Measurement Systems and Applications (CIVEMSA). IEEE, 60–65.
-
-   social media
+   ### social media
    > Huizhe Wu, Wei Zhang, Weiwei Shen, and Jun Wang. 2018. Hybrid deep sequential modeling for social text-driven stock prediction. In Proceedings of the 27th ACM International Conference on Information and Knowledge Management. 1627–1630.
    >
    > Yumo Xu and Shay B Cohen. 2018. Stock movement prediction from tweets and historical prices. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), Vol. 1. 1970–1979.
@@ -68,13 +67,32 @@
    > Steve Y Yang, Sheung Yin Kevin Mo, and Anqi Liu. 2015. Twitter financial community sentiment and its predictive relationship to stock market movement. Quantitative Finance 15, 10 (2015), 1637–1656.
    >
    > Zhenkun Zhou, Jichang Zhao, and Ke Xu. 2016. Can online emotions predict the stock market in China?. In International conference on web information systems engineering. Springer, 328–342.
-
-   discussion board
+   ### discussion board
    > Qing Li, TieJun Wang, Ping Li, Ling Liu, Qixu Gong, and Yuanzhu Chen. 2014. The effect of news and public mood on stock movements. Information Sciences 278 (2014), 826–840.
    >
    > Thien Hai Nguyen, Kiyoaki Shirai, and Julien Velcin. 2015. Sentiment analysis on social media for stock movement prediction. Expert Systems with Applications 42, 24 (2015), 9603–9611.
    >
    > David Zimbra, Hsinchun Chen, and Robert F Lusch. 2015. Stakeholder analyses of firm-related web forums: Applications in stock return prediction. ACM Transactions on Management Information Systems (TMIS) 6, 1 (2015), 1–38.
+
+3. 可以比较的模型
+   1. ARIMA
+   2. TGCN
+      
+      TGCN leverages a variant of graph convolutional networks to propagate the historical price information on the stock graph for stock trend forecasting. It only uses historical price data and does not use the event information.
+
+      > Daiki Matsunaga, Toyotaro Suzumura, and Toshihiro Takahashi. 2019. Exploring Graph Neural Networks for Stock Market Predictions with Rolling Window Analysis. arXiv preprint arXiv:1909.10660 (2019).
+
+   3. HAN(2018)
+      
+      A model that utilizes the hierarchical attention mechanism over media information for stock trend forecasting.
+
+      > Ziniu Hu, Weiqing Liu, Jiang Bian, Xuanzhe Liu, and Tie-Yan Liu. 2018. Listening to chaotic whispers: A deep learning framework for news-oriented stock trend prediction. In Proceedings of the Eleventh ACM International Conference on Web Search and Data Mining. ACM, 261–269.
+
+   4. Relational GCN(2020)
+      
+      This method uses the Relational GCN propagation layer to propagate the effect of event information. It can learn the different event effects under **different relations** compared with the GCN model.
+
+      > Wei Li, Ruihan Bao, Keiko Harimoto, Deli Chen, Jingjing Xu, and Qi Su. 2020. Modeling the Stock Relation with Graph Network for Overnight Stock Movement Prediction. 4491–4497.
 
 # Gated Sequential Recommendation System with Social and Textual Information Under Dynamic Contexts
 + extract users' preference, consider dynammic contexts
