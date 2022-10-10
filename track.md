@@ -14,7 +14,7 @@ Firstly, we extract structured events from financial news, and utilize external 
 We evaluate the prediction accuracy to show how knowledge-driven events work on abrupt changes. We also visualize the effect of events and linkage among events based on knowledge graph, to explain why knowledge-driven events are common sources of abrupt changes. Experiments demonstrate that KDTCN can (i) react to abrupt changes much faster and outperform state-of-the-art methods on stock datasets, as well as (ii) facilitate the explanation of prediction particularly with abrupt changes.
 ### 兴趣点
 1. 这种说法，abrupt changes of stock trend
-2. event embedding怎么做的
+2. event embedding怎么做的: event extraction + knowledge graph
 3. 好像效果还不错？整个TCN的效果看起来精度不错
 ---
 
