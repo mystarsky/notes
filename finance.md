@@ -74,3 +74,7 @@ Using normalized Mutual Information as relations?
     > Bryan Perozzi, Rami Alrfou, and Steven Skiena. 2014. DeepWalk: online learning of social representations. (2014), 701–710.
     > Daixin Wang, Peng Cui, and Wenwu Zhu. 2016. Structural Deep Network Embedding. In ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. 1225–1234.
 + Heterogeneous Graph
+
+## “ 稳定 ” 还是 “ 扰动 ” ———基于上证50ETF期权的实证分析
+事件研究法
+
